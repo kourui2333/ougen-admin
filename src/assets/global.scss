@@ -1,0 +1,73 @@
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+.el-main,
+.el-header {
+    margin: 0;
+    padding: 0;
+}
+
+// .el-container,
+.main {
+    height: 100%;
+}
+
+.cellClass {
+    text-align: center !important;
+}
+
+.el-upload-dragger,
+.el-upload {
+    width: 100% !important;
+}
+
+// 全局进场动画
+@keyframes coming {
+    from {
+        transform: translateX(-10px);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+// menu出场动画
+@keyframes menuOut {
+    from {
+        // margin: 0px;
+        opacity: 1;
+    }
+
+    to {
+        // margin: 0 -15px 0 15px;
+        opacity: 0;
+    }
+}
+
+// tab出场动画
+@keyframes out {
+    from {
+        margin: 0px;
+        opacity: 1;
+    }
+
+    to {
+        margin: 0 -15px 0 15px;
+        opacity: 0.5;
+    }
+}
